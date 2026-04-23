@@ -155,6 +155,16 @@ Designed for operational reliability, not demo accuracy.
 Shows how to make probabilistic AI usable inside 
 business workflows.
 
+## Related Projects
+
+- Decision Engine → [https://github.com/kobescak-kristian/ai-decision-engine-feedback]
+  Generates structured decisions that this system validates and routes.
+
+This system ensures that AI decisions are:
+- valid
+- consistent
+- safe to execute
+
 ## Known Limitations
 **Single retry:** No exponential backoff — one retry only.
 
