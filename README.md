@@ -158,7 +158,8 @@ business workflows.
 ## Related Projects
 
 - Decision Engine → [https://github.com/kobescak-kristian/ai-decision-engine-feedback]
-  Generates structured decisions that this system validates and routes.
+
+Generates structured decisions that this system validates and routes.
 
 This system ensures that AI decisions are:
 - valid
