@@ -50,8 +50,8 @@ and malformed records. Fallback triggered on 2 records —
 both handled without system failure.
 
 ## Architecture
+![AI Workflow Reliability Engine Overview](architecture_v2.png)
 
-![Architecture](architecture-v2-diagram.png)
 
 ## Business Value
 
@@ -87,6 +87,10 @@ both handled without system failure.
    newest on top, repeat leads flagged automatically
 8. **Persist** — every decision written to SQLite with 
    run ID for cross-run audit
+
+## Detailed Architecture (Technical View)
+
+![Architecture](architecture-v2-diagram.png)
 
 ## Routing Logic
 
@@ -192,31 +196,37 @@ Complete — v2.0
 
 High-level structure of the system:
 
-ai-decision-engine-feedback/
+```
+ai-workflow-reliability-engine/
 │
-├── api.py                  # FastAPI endpoints (/qualify, /outcome)
-├── main.py                 # Entry point (run pipeline locally)
-├── load_outcomes.py        # Batch outcome ingestion
+├── main.py                  # Entry point (run full pipeline locally)
+├── api.py                   # FastAPI endpoints (/qualify, /qualify/batch, /stats, /audit, /alerts, /health)
 ├── requirements.txt
+├── .env.example             # Environment variable template
+├── architecture.png         # System diagram
 │
 ├── config/
-│   └── settings.py         # Thresholds and configuration
+│   └── settings.py          # Thresholds, credentials, and runtime configuration
 │
 ├── models/
-│   └── schemas.py          # Data models (InputRecord, Decision, Outcome)
+│   └── schemas.py           # Data models for input, AI output, validation, and routing
 │
 ├── pipeline/
-│   ├── input_handler.py    # Input normalization
-│   ├── ai_processor.py     # AI decision logic
-│   ├── validator.py        # Output validation
-│   ├── router.py           # Decision routing logic
-│   ├── outcome_handler.py  # Outcome ingestion
-│   └── evaluator.py        # Metrics + evaluation engine
+│   ├── input_handler.py     # Input loading and parsing
+│   ├── ai_processor.py      # OpenAI call + simulation mode
+│   ├── validator.py         # Schema and rule validation
+│   ├── fallback.py          # Retry with strict prompt + safe default assignment
+│   └── router.py            # Final routing decision logic
 │
 ├── utils/
-│   └── logger.py           # Logging utilities
+│   ├── sanitiser.py         # HTML stripping and malformed-input rejection
+│   ├── database.py          # SQLite persistence and audit trail
+│   ├── notifier.py          # Slack + email alerts for manual review
+│   ├── sheets.py            # Google Sheets CRM writer
+│   └── logger.py            # Logging utilities
 │
 ├── data/
-│   └── sample_input.json   # Example input data
+│   └── sample_input.json    # Example input records for demo/testing
 │
-└── architecture.png        # System diagram
+└── .gitignore               # Excludes secrets, runtime DB, and generated output
+```
