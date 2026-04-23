@@ -189,3 +189,34 @@ webhook input source.*
 Complete — v2.0
 
 ## Repository Structure
+
+High-level structure of the system:
+
+ai-decision-engine-feedback/
+│
+├── api.py                  # FastAPI endpoints (/qualify, /outcome)
+├── main.py                 # Entry point (run pipeline locally)
+├── load_outcomes.py        # Batch outcome ingestion
+├── requirements.txt
+│
+├── config/
+│   └── settings.py         # Thresholds and configuration
+│
+├── models/
+│   └── schemas.py          # Data models (InputRecord, Decision, Outcome)
+│
+├── pipeline/
+│   ├── input_handler.py    # Input normalization
+│   ├── ai_processor.py     # AI decision logic
+│   ├── validator.py        # Output validation
+│   ├── router.py           # Decision routing logic
+│   ├── outcome_handler.py  # Outcome ingestion
+│   └── evaluator.py        # Metrics + evaluation engine
+│
+├── utils/
+│   └── logger.py           # Logging utilities
+│
+├── data/
+│   └── sample_input.json   # Example input data
+│
+└── architecture.png        # System diagram
