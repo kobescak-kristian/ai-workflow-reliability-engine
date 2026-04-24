@@ -230,3 +230,15 @@ ai-workflow-reliability-engine/
 │
 └── .gitignore               # Excludes secrets, runtime DB, and generated output
 ```
+
+---
+
+## System Context
+
+This project is part of a larger AI decision system:
+
+- Reliability Engine → prevents invalid AI outputs from entering workflows  
+- **[Decision Engine](https://github.com/kobescak-kristian/ai-decision-engine-feedback)** → tracks outcomes and evaluates decision correctness  
+- **[Impact Engine](https://github.com/kobescak-kristian/ai-impact-decision-intelligence-engine)** → measures financial impact and optimizes thresholds  
+
+→ Complete system: validation → evaluation → financial impact
